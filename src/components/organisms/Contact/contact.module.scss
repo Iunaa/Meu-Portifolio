@@ -1,0 +1,98 @@
+.Contact {
+    position: relative;
+    margin-right: 16px;
+    
+    
+    
+
+
+    &__title{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1.136px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+
+
+
+    }
+
+    &__paragraph{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        padding: 0 16px;
+        
+       
+
+    }
+
+    &__anchor{
+        position: absolute;
+        left: 200px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 2.286px;
+        border-width: 0 0 2px 0;
+        border-style: solid;
+        border-color: rgba(78, 225, 160, 1);
+       
+        
+        
+    }
+
+    
+
+    &__data{
+         position: relative;
+         &__line3 {
+                position: absolute;
+                    top: 260px;
+        
+            }  
+        &__container{
+            
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+                letter-spacing: -0.222px;
+                opacity: 0.5;
+                margin-top: 50px;
+                margin-left: 40px;
+               
+
+            &__name{
+                border-width: 0 0 2px 0;
+                border-style: solid;
+                border-color: rgba(255, 255, 255, 1);
+                margin-bottom: 80px;
+                padding-bottom: 17px;
+
+            }
+
+            &__email{
+                border-width: 0 0 2px 0;
+                border-style: solid;
+                border-color: rgba(255, 255, 255, 1);
+                margin-bottom: 80px;
+                padding-bottom: 17px;
+
+            }
+
+            &__message{
+               
+                border-width: 0 0 2px 0;
+                border-style: solid;
+                border-color: rgba(255, 255, 255, 1);
+                margin-bottom: 80px;
+                padding-bottom: 81px;
+
+            }
+           
+        }
+    }
+}

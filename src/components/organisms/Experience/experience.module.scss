@@ -1,0 +1,27 @@
+.experience {
+    margin-top: 40px;
+    border-bottom: 1px solid white;
+
+    &__title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1px;
+        text-align: center;
+        gap: 24px;
+    }
+
+    &__time {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+}
+
+.Line2 {
+    position: absolute;
+    left: 50%;
+    top: 142%;
+}

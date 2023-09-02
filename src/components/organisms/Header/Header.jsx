@@ -12,7 +12,7 @@ export const Header = () => {
     <>
      <div className={styles.header}>
         <div className={styles.header__container}>
-        <h1 className={styles.header__container__title}>iunaLeon</h1>
+        <h1 className={styles.header__container__title}>IunaLeon</h1>
         <img className={styles.header__container__group} src={Group}/>
          <img className={styles.header__container__img} src={Eu}/>
         
